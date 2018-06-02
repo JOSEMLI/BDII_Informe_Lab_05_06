@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  1 JUN 2018 22:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  1 JUN 2018 23:01
 entering extended mode
 **./BDII_Informe_Lab_06_5.tex
 (BDII_Informe_Lab_06_5.tex
@@ -557,7 +557,7 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
  (Secciones/Actividad01.aux)
-(Secciones/Actividad02.aux) (Secciones/Actividad03.aux))
+(Secciones/Actividad02.aux))
 \openout1 = `BDII_Informe_Lab_06_5.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -669,42 +669,49 @@ LaTeX Info: Redefining \% on input line 1.
  [1]
 \openout2 = `Secciones/Actividad01.aux'.
 
- (Secciones/Actividad01.tex)
+ (Secciones/Actividad01.tex
+<./Imagenes/actividad_5_1_lab_05.png, id=11, 528.47438pt x 444.15938pt>
+File: ./Imagenes/actividad_5_1_lab_05.png Graphic file (type png)
+<use ./Imagenes/actividad_5_1_lab_05.png>
+Package pdftex.def Info: ./Imagenes/actividad_5_1_lab_05.png  used on input lin
+e 6.
+(pdftex.def)             Requested size: 227.62204pt x 191.30333pt.
+)
 [1
 
-]
+ <./Imagenes/actividad_5_1_lab_05.png>]
 \openout2 = `Secciones/Actividad02.aux'.
 
- (Secciones/Actividad02.tex) [2
+ (Secciones/Actividad02.tex
+<./Imagenes/actividad_5_1_lab_06.png, id=17, 509.65407pt x 355.3275pt>
+File: ./Imagenes/actividad_5_1_lab_06.png Graphic file (type png)
+<use ./Imagenes/actividad_5_1_lab_06.png>
+Package pdftex.def Info: ./Imagenes/actividad_5_1_lab_06.png  used on input lin
+e 6.
+(pdftex.def)             Requested size: 227.62204pt x 158.69766pt.
+) [2
 
 
-]
-\openout2 = `Secciones/Actividad03.aux'.
-
- (Secciones/Actividad03.tex) [3
-
-
-]
-(BDII_Informe_Lab_06_5.aux
+ <./Imagenes/actividad_5_1_lab_06.png>] (BDII_Informe_Lab_06_5.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
- (Secciones/Actividad01.aux)
-(Secciones/Actividad02.aux) (Secciones/Actividad03.aux)) ) 
+
+(Secciones/Actividad01.aux) (Secciones/Actividad02.aux)) ) 
 Here is how much of TeX's memory you used:
- 3890 strings out of 493305
- 54155 string characters out of 3129802
- 128511 words of memory out of 3000000
+ 3884 strings out of 493305
+ 54095 string characters out of 3129802
+ 128238 words of memory out of 3000000
  7352 multiletter control sequences out of 15000+200000
- 6827 words of font info for 25 fonts, out of 3000000 for 9000
+ 5149 words of font info for 19 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,5n,30p,260b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/akari/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/User
 s/akari/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
 pfb>
-Output written on BDII_Informe_Lab_06_5.pdf (5 pages, 44338 bytes).
+Output written on BDII_Informe_Lab_06_5.pdf (4 pages, 147389 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
