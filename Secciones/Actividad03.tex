@@ -1,83 +1,81 @@
-\section{Laboratorio No 06 – Cuestionario} 
+\section{Laboratorio No 07 – Cuestionario} 
 
 \begin{enumerate}[1.]
-	\item ¿Qué sucede al ejecutar los siguientes comandos?
+	
+	\item Desarrollar el scrip de creaci\'on de TableSpace y archivos para la base de datos de su proyecto.
+	\\Conectarse con SQL Developer
+
 	\begin{center}
-	\includegraphics[width=8cm]{./Imagenes/actividad_5_1_lab_06}
+	\includegraphics[width=8cm]{./Imagenes/eje7_con}
 	\end{center}	
-	- STARTUP OPEN 
-	\\Cuando inicia una base de datos, crea una instancia de esa base de datos y determina el estado de la base de datos. Monturas y abre la base de datos especificada.
-	\\
-	\\- STARTUP MOUNT 
-	\\Monta un base de datos, pero no lo abre.
-	\\
-	\\- STARTUP NOMOUNT 
-	\\Causa que la base de datos no se monte al inicio de la instancia 
-	\\
-	\\- STARTUP FORCE 
-	\\Apaga la instancia actual de Oracle Database (si se est\'a ejecutando) con el modo SHUTDOWN ABORT, antes de reiniciarlo. Si la instancia actual se est\'a ejecutando y no se especifica 
-	\\FORCE, se produce un error. FORCE es útil durante la depuración y en circunstancias anormales. Normalmente no debería ser usado.
-	\\
-	\\- STARTUP RESTRICT 
-	\\Solo permite a los usuarios de Oracle Database con el privilegio del sistema RESTRICTED SESSION conectarse a la base de datos. M\'as tarde, puede usar el comando ALTER SYSTEM 
-	\\para deshabilitar la caracter\'istica de sesi\'on restringida.
-	\\
-	\\- STARTUP RECOVER 
-	\\Especifica que se debe realizar la recuperación de medios, si es necesario, antes de iniciar la instancia. STARTUP RECOVER tiene el mismo efecto que emitir el comando RECOVER
-	 \\DATABASE e iniciar una instancia. Solo es posible la recuperaci\'on completa con la opci\'on RECUPERAR.
-	\\La recuperaci\'on contin\'ua, si es necesario, como si AUTORECOVERY estuviera configurado en ON, independientemente de si AUTORECOVERY est\'a habilitado o no. Si no se encuentra 
-	\\un archivo de registro de rehacer en la ubicaci\'on esperada, la recuperaci\'on contin\'ua como si AUTORECOVERY estuviera deshabilitado, solicit\'andole la ubicaci\'on sugerida y el nombre 
-	\\de los archivos de registro posteriores que deben aplicarse.
-	\\
-	\\- SHUTDOWN NORMAL 
-	\\NORMAL es la opci\'on predeterminada que espera que los usuarios se desconecten de la base de datos.
-	\\M\'as conexiones est\'an prohibidas. La base de datos est\'a cerrada y desmontada. La instancia se apaga y no se requiere recuperaci\'on de instancias en el pr\'oximo inicio de la base de 
-	\\datos.
-	\\
-	\\- SHUTDOWN TRANSACTIONAL 
-	\\Realiza un cierre planificado de una instancia al tiempo que permite que las transacciones activas se completen primero. Evita que los clientes pierdan el trabajo sin requerir que todos 
-	\\los usuarios cierren la sesi\'on.
-	\\Ning\'un cliente puede iniciar una nueva transacci\'on en esta instancia. Intentar iniciar una nueva transacci\'on provoca la desconexi\'on. Despu\'es de completar todas las transacciones, 
-	\\cualquier cliente que todav\'ia est\'e conectado a la instancia se desconectar\'a. Ahora la instancia se cierra como lo har\'ia si se enviara una instrucción SHUTDOWN INMEDIATA. El pr\'oximo 
-	\\inicio de la base de datos no requerir\'a ningún procedimiento de recuperación de instancias.
-	\\El modo LOCAL especifica un cierre transaccional solo en la instancia local, por lo que solo espera que se completen las transacciones locales, no todas las transacciones. Esto es \'util, 
-	\\por ejemplo, para el mantenimiento programado de la interrupci\'on.
-	\\
-	\\- SHUTDOWN ABORT 
-	\\Procede con el cierre m\'as r\'apido posible de la base de datos sin esperar a que finalicen las llamadas o que los usuarios se desconecten.
-	\\Las transacciones no confirmadas no se revierten. Las sentencias de SQL del cliente que se est\'an procesando est\'an finalizadas. Todos los usuarios actualmente conectados a la base 
-	\\de datos est\'an desconectados impl\'icitamente y el pr\'oximo inicio de la base de datos requerir\'a la recuperaci\'on de la instancia.
-	\\Debe usar esta opci\'on si un proceso en segundo plano termina anormalmente.
-	\\
-	\\- SHUTDOWN INMEDIATE
-	\\No espera a que finalicen las llamadas actuales o que los usuarios se desconecten de la base de datos.
-	\\M\'as conexiones estn prohibidas. La base de datos est\'a cerrada y desmontada. La instancia se apaga y no se requiere recuperaci\'on de instancias en el pr\'oximo inicio de la base de 
-	\\datos.
+	coloque un nombre de conexi\'on, el usuario es system y la contraseña es 123456, system es un usuario administrador, por defecto sqldeveloper coloca el SID como XE, modif\'iquelo por el nombre Oracle
+	\\Conectar y entrar\'a el area de trabajo de SQL Developer
 
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje_con1}
+	\end{center}	
 
-	\item . En el script lab\_02\_01.sql, se establecen privilegios de sistema, enliste los privilegios de sistema (DDL) utilizados y describa cada uno de ellos.
-	\\\\- create table 
-	\\- insert into
-	\\- exec
-	\\- begin tran
-	\\- save tran
-	\\- delete
-	\\- select
-	\\- rollback tran
-	\\- alter proc
-	\\- declare
-	\\-  create sequence
-	\\- drop sequence
-	\\- create index
-	\\- creatw synonym
-	
-	\item Enliste y describa los tipos de TableSpace que existen en Oracle.
-	\\\\ existen dos tipos de tablespace :
-	\\- TableSpace System	: se crea automaticamente al hacer la instalacion de oracle o al crear una BD.
-	\\- TableSpace Temporales	: es aquel en el que solamente puede haber objetos temporales
-	\\\\- de tipo deshacer cambios	: se utilizan para gestionar poder deshacer las transacciones incompletas.
-	\\- con tamaño de bloque variable
-	\\- de tipo BigFile	
-	
-
+	Digite las sentencias para crear la tabla G2 e insertar los datos\\
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje_con2}
+	\end{center}	
+	Realice pruebas con los comandos vistos en Base de datos I, UPDATE, DELETE, SELECT y podr\'a comprobar que el lenguaje de manipulaci\'on de datos(DML), se mantiene similar al de SQL Server e incluso con MySql\\
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje_con3}
+	\end{center}	
+	\item Desarrollar el scrip de creaci\'on de objetos (entidades, atributos, llaves y rectriccion
+	\\Conectarse con SQL PLUS
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje1}
+	\end{center}	
+	Para comenzar muestre los datos de la tabla g2, creada en SQL Developer, debe mostrar los siguientes datos, si no aparecen datos significa que no ejecut\'o la sentencia commit\\
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje2}
+	\end{center}	
+	Procedemos a crear la tabla g3, es importante verificar que cuando tenemos una sentencia de una sola l\'inea como (select * from g2)\\
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje3}
+	\end{center}	
+	Agregue los siguientes registros y realice modificaciones y eliminaciones\\
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje4}
+	\end{center}	
+	Si deseamos conocer la estructura que tiene una tabla podemos utilizar la sentencia DESC TABLE\\
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje5}
+	\end{center}
+	CREACION DE USUARIOS Y TABLESPACE
+	En la unidad D, cree una carpeta que se llame prueba
+	Digite el siguiente c\'odigo, que permitir\'a crear un table espace de 32 mb en la carpeta prueba de la unidad D\\
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje6}
+	\end{center}
+	Ahora crearemos un usuario llamado udbg2 con clave don bosco y en la siguiente l\'inea le asignaremos permisos de administrador( grant dba to 		udbg2)\\
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje7}
+	\end{center}
+	Ahora si necesidad de salirnos de SQL PLUS podemos cambiarnos de usuarios con la sentencia connect user/clave, luego podemos verificar el usuario actual con la consulta select user from dual, tambi\'en puede utilizar la sentencia show user\\
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje8}
+	\end{center}
+	En el usuario UDBG2 crearemos las siguientes tablas\\
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje9}
+	\end{center}
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje10}
+	\end{center}
+	Para verificar si las tablas fueron creadas podemos utilizar la siguiente sentencia\\
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje11}
+	\end{center}
+	Finalmente insertamos los datos de la tabla pa\'is y artista\\
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje12}
+	\end{center}
+	ANALISIS DE RESULTADOS
+	Crear un tablespace con el nombre de ejercicio1 y crear un usuario con su c\'odigo de carnet, a dicho usuario asignar el tablespace y crear las 		siguientes tablas\\
+	\begin{center}
+	\includegraphics[width=8cm]{./Imagenes/eje13}
+	\end{center}
 \end{enumerate} 
