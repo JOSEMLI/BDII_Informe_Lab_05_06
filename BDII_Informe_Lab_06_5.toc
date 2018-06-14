@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Laboratorio No 05 \IeC {\textendash } Cuestionario}{1}
+\contentsline {section}{\numberline {2}Laboratorio No 06 \IeC {\textendash } Cuestionario}{3}
+\contentsline {section}{\numberline {3}Laboratorio No 07 \IeC {\textendash } Cuestionario}{6}

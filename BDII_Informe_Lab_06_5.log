@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  13 JUN 2018 23:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  13 JUN 2018 23:34
 entering extended mode
 **./BDII_Informe_Lab_06_5.tex
 (BDII_Informe_Lab_06_5.tex
@@ -791,4 +791,211 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--56
  []
 
 
-Underfull \hbox (badness 10000) in paragraph a
+Underfull \hbox (badness 10000) in paragraph at lines 8--56
+
+ []
+
+[3
+
+
+ <./Imagenes/actividad_5_1_lab_06.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 58--73
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 74--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--81
+
+ []
+
+) [5]
+\openout2 = `Secciones/Actividad03.aux'.
+
+ (Secciones/Actividad03.tex
+<./Imagenes/eje7_con.png, id=33, 790.45313pt x 256.70906pt>
+File: ./Imagenes/eje7_con.png Graphic file (type png)
+<use ./Imagenes/eje7_con.png>
+Package pdftex.def Info: ./Imagenes/eje7_con.png  used on input line 9.
+(pdftex.def)             Requested size: 227.62204pt x 73.92274pt.
+<./Imagenes/eje_con1.png, id=34, 557.08125pt x 289.83281pt>
+File: ./Imagenes/eje_con1.png Graphic file (type png)
+<use ./Imagenes/eje_con1.png>
+Package pdftex.def Info: ./Imagenes/eje_con1.png  used on input line 15.
+(pdftex.def)             Requested size: 227.62204pt x 118.42091pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+File: ./Imagenes/eje_con1.png Graphic file (type png)
+<use ./Imagenes/eje_con1.png>
+Package pdftex.def Info: ./Imagenes/eje_con1.png  used on input line 20.
+(pdftex.def)             Requested size: 227.62204pt x 118.42091pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+<./Imagenes/eje_con3.png, id=35, 325.215pt x 264.23718pt>
+File: ./Imagenes/eje_con3.png Graphic file (type png)
+<use ./Imagenes/eje_con3.png>
+Package pdftex.def Info: ./Imagenes/eje_con3.png  used on input line 26.
+(pdftex.def)             Requested size: 227.62204pt x 184.94862pt.
+[6
+
+
+ <./Imagenes/eje7_con.png> <./Imagenes/eje_con1.png>]
+<./Imagenes/eje1.png, id=39, 347.79938pt x 265.74281pt>
+File: ./Imagenes/eje1.png Graphic file (type png)
+<use ./Imagenes/eje1.png>
+Package pdftex.def Info: ./Imagenes/eje1.png  used on input line 31.
+(pdftex.def)             Requested size: 227.62204pt x 173.91885pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+<./Imagenes/eje2.png, id=40, 510.40688pt x 150.5625pt>
+File: ./Imagenes/eje2.png Graphic file (type png)
+<use ./Imagenes/eje2.png>
+Package pdftex.def Info: ./Imagenes/eje2.png  used on input line 35.
+(pdftex.def)             Requested size: 227.62204pt x 67.14598pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+<./Imagenes/eje3.png, id=41, 381.67593pt x 91.09032pt>
+File: ./Imagenes/eje3.png Graphic file (type png)
+<use ./Imagenes/eje3.png>
+Package pdftex.def Info: ./Imagenes/eje3.png  used on input line 39.
+(pdftex.def)             Requested size: 227.62204pt x 54.32379pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+[7 <./Imagenes/eje_con3.png> <./Imagenes/eje1.png> <./Imagenes/eje2.png> <./Ima
+genes/eje3.png>]
+<./Imagenes/eje4.png, id=45, 188.95593pt x 91.09032pt>
+File: ./Imagenes/eje4.png Graphic file (type png)
+<use ./Imagenes/eje4.png>
+Package pdftex.def Info: ./Imagenes/eje4.png  used on input line 43.
+(pdftex.def)             Requested size: 227.62204pt x 109.73033pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+<./Imagenes/eje5.png, id=46, 380.92313pt x 192.72pt>
+File: ./Imagenes/eje5.png Graphic file (type png)
+<use ./Imagenes/eje5.png>
+Package pdftex.def Info: ./Imagenes/eje5.png  used on input line 47.
+(pdftex.def)             Requested size: 227.62204pt x 115.15942pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--52
+
+ []
+
+<./Imagenes/eje6.png, id=47, 417.81094pt x 84.315pt>
+File: ./Imagenes/eje6.png Graphic file (type png)
+<use ./Imagenes/eje6.png>
+Package pdftex.def Info: ./Imagenes/eje6.png  used on input line 53.
+(pdftex.def)             Requested size: 227.62204pt x 45.93594pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+<./Imagenes/eje7.png, id=48, 228.10219pt x 101.62968pt>
+File: ./Imagenes/eje7.png Graphic file (type png)
+<use ./Imagenes/eje7.png>
+Package pdftex.def Info: ./Imagenes/eje7.png  used on input line 57.
+(pdftex.def)             Requested size: 227.62204pt x 101.41852pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+<./Imagenes/eje8.png, id=49, 275.52937pt x 112.16907pt>
+File: ./Imagenes/eje8.png Graphic file (type png)
+<use ./Imagenes/eje8.png>
+Package pdftex.def Info: ./Imagenes/eje8.png  used on input line 61.
+(pdftex.def)             Requested size: 227.62204pt x 92.66898pt.
+[8 <./Imagenes/eje4.png> <./Imagenes/eje5.png> <./Imagenes/eje6.png> <./Imagene
+s/eje7.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+<./Imagenes/eje9.png, id=53, 403.5075pt x 106.89937pt>
+File: ./Imagenes/eje9.png Graphic file (type png)
+<use ./Imagenes/eje9.png>
+Package pdftex.def Info: ./Imagenes/eje9.png  used on input line 65.
+(pdftex.def)             Requested size: 227.62204pt x 60.30363pt.
+<./Imagenes/eje10.png, id=54, 305.64188pt x 225.09094pt>
+File: ./Imagenes/eje10.png Graphic file (type png)
+<use ./Imagenes/eje10.png>
+Package pdftex.def Info: ./Imagenes/eje10.png  used on input line 68.
+(pdftex.def)             Requested size: 227.62204pt x 167.63284pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+<./Imagenes/eje11.png, id=55, 435.87843pt x 87.32625pt>
+File: ./Imagenes/eje11.png Graphic file (type png)
+<use ./Imagenes/eje11.png>
+Package pdftex.def Info: ./Imagenes/eje11.png  used on input line 72.
+(pdftex.def)             Requested size: 227.62204pt x 45.60312pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+<./Imagenes/eje12.png, id=56, 420.82219pt x 86.57344pt>
+File: ./Imagenes/eje12.png Graphic file (type png)
+<use ./Imagenes/eje12.png>
+Package pdftex.def Info: ./Imagenes/eje12.png  used on input line 76.
+(pdftex.def)             Requested size: 227.62204pt x 46.8282pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
+
+ []
+
+<./Imagenes/eje13.jpg, id=57, 715.17188pt x 311.66437pt>
+File: ./Imagenes/eje13.jpg Graphic file (type jpg)
+<use ./Imagenes/eje13.jpg>
+Package pdftex.def Info: ./Imagenes/eje13.jpg  used on input line 81.
+(pdftex.def)             Requested size: 227.62204pt x 99.19249pt.
+[9 <./Imagenes/eje8.png> <./Imagenes/eje9.png> <./Imagenes/eje10.png> <./Imagen
+es/eje11.png> <./Imagenes/eje12.png>]) [10 <./Imagenes/eje13.jpg>]
+(BDII_Informe_Lab_06_5.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+ (Secciones/Actividad01.aux)
+(Secciones/Actividad02.aux) (Secciones/Actividad03.aux)) ) 
+Here is how much of TeX's memory you used:
+ 3973 strings out of 493305
+ 56242 string characters out of 3128932
+ 133692 words of memory out of 3000000
+ 7423 multiletter control sequences out of 15000+200000
+ 5141 words of font info for 19 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,5n,30p,410b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Users/Enrique/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Us
+ers/Enrique/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r12.pfb><D:/Users/Enrique/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr8.pfb>
+Output written on BDII_Informe_Lab_06_5.pdf (12 pages, 381793 bytes).
+PDF statistics:
+ 75 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+
